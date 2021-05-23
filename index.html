@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <style>
+        #required{content: "*"}
+    </style>
+
 </head>
 <body>
 
@@ -44,9 +48,9 @@
     </section>
 
     <section>
-        <div class="portfolio-item"><img src="https://i.ytimg.com/vi/i3NlpZXeOxI/maxresdefault.jpg" alt="Audi a5 Sportback"></div>
-        <div class="portfolio-item"><img src="https://cdn.bmwblog.com/wp-content/uploads/BMW-Seria-6-Gran-Coupe-11.jpg" alt="BMW 660i"></div>
-        <div class="portfolio-item"><img src="https://ultimatecars.pl/wp-content/uploads/Mercedes-CLS-3.jpg" alt="Mercedes CLS"></div>
+        <div class="portfolio-item"><img src="https://i.ytimg.com/vi/i3NlpZXeOxI/maxresdefault.jpg" alt="Audi a5 Sportback" width="300" height="200" ></div>
+        <div class="portfolio-item"><img src="https://cdn.bmwblog.com/wp-content/uploads/BMW-Seria-6-Gran-Coupe-11.jpg" alt="BMW 660i" width="300" height="200"></div>
+        <div class="portfolio-item"><img src="https://ultimatecars.pl/wp-content/uploads/Mercedes-CLS-3.jpg" alt="Mercedes CLS" width="300" height="200"></div>
     </section>
 
     <section>
@@ -60,11 +64,11 @@
 
         <form action="/action_page.php">
             <label for="fname">Imię</label><br>
-            <input type="text" id="fname" required name="fname"><br>
+            <input type="text" id="fname" name="fname" #required><br>
             <label for="subject">Temat</label><br>
-            <input type="text" id="subject" required name="subject"><br>
-            <label for="message">Wiadomość</label>
-            <input type="text" id="message" required name="message"></form><br>
+            <input type="text" id="subject" name="subject" #required><br>
+            <label for="message">Wiadomość</label><br>
+            <input type="text" id="message" name="message" #required></form><br>
             <input type="submit" value="Wyślij"><br>
     </section>
 
