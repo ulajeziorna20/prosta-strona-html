@@ -7,14 +7,18 @@
     <title>Document</title>
 
     <style>
-        #required{content: "*"}
+
+        #required
+        { 
+            content: "*" 
+        }
     </style>
 
 </head>
 <body>
 
     <nav class="main navigation">
-        <ul class="menu-list">
+        <ul class="menu-list"><p>Menu</p>
             <li><a href="#About us">O nas</a></li>
             <li><a href="#Skills">Umiejętności</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
@@ -64,11 +68,11 @@
 
         <form action="/action_page.php">
             <label for="fname">Imię</label><br>
-            <input type="text" id="fname" name="fname" #required style="content: '*'"><br>
+            <input type="text" id="fname" name="fname" required><br>
             <label for="subject">Temat</label><br>
-            <input type="text" id="subject" name="subject" #required><br>
+            <input type="text" id="subject" name="subject" required><br>
             <label for="message">Wiadomość</label><br>
-            <input type="text" id="message" name="message" #required></form><br>
+            <input type="text" id="message" name="message" required></form><br>
             <input type="submit" value="Wyślij"><br>
     </section>
 
