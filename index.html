@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 <body>
 
@@ -51,7 +52,7 @@
     <section>
         <h1>Kontakt</h1>
 
-        <h2>Jeziorna Urszula</h2>
+        <h3>Jeziorna Urszula</h3>
         <address>
             <p>Kwiatowa 8</p>
             <p>33-283 Warszawa</p>
@@ -59,11 +60,11 @@
 
         <form action="/action_page.php">
             <label for="fname">Imię</label><br>
-            <input type="text" required{border: 1px solid #000} id="fname" name="fname" ><br>
+            <input type="text" id="fname" required name="fname"><br>
             <label for="subject">Temat</label><br>
-            <input type="text" id="subject" name="subject"><br>
+            <input type="text" id="subject" required name="subject"><br>
             <label for="message">Wiadomość</label>
-            <input type="text" id="message" name="message"></form><br>
+            <input type="text" id="message" required name="message"></form><br>
             <input type="submit" value="Wyślij"><br>
     </section>
 
