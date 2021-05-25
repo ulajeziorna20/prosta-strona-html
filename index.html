@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,61 +8,68 @@
     <title>Document</title>
 
     <style>
-
-        #required
-        { 
-            content: "*" 
+        #required {
+            content: "*"
         }
     </style>
 
 </head>
+
 <body>
 
     <nav class="main navigation">
+        
         <ul class="menu-list">
-        <h3>MENU</h3>
-            <li><a href="#About us">O nas</a></li>
+            
+            <li><a href="#about-us">O nas</a></li>
             <li><a href="#Skills">Umiejętności</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#Contact">Kontakt</a></li>
+            <li><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
 
-    <section>
+    <section id="about-us">
         <h1>O nas</h1>
-        <p>Jesteśmy jedną z największych firm motoryzacyjnych na świecie. Mamy swoje siedziby m.in. w Polsce oraz w Niemczech. Z nami znajdziesz swoją jakośc i wygodę.</p>
+        <p>Jesteśmy jedną z największych firm motoryzacyjnych na świecie. Mamy swoje siedziby m.in. w Polsce oraz w
+            Niemczech. Z nami znajdziesz swoją jakośc i wygodę.</p>
     </section>
 
     <section>
-        <h1>Umiejętności</h1>
+        <h2>Umiejętności</h2>
         <div class="skill">
             <h3>Dopasowanie oferty pod preferencje klienta</h3>
             <p>Niezależnie od tego czego wymagasz i czego szukasz sprawimy ,że znajdziesz tu idealny samochód.</p>
         </div>
         <div class="skill">
             <h3>Rozwiewanie wątpliwości</h3>
-            <p>Umożliwimy Tobie jazdę próbną oraz dostęp do pełnej dokumentacji pojazdu, tak abyś mógł podjąć lepszą , świadomą decyzję.</p>
+            <p>Umożliwimy Tobie jazdę próbną oraz dostęp do pełnej dokumentacji pojazdu, tak abyś mógł podjąć lepszą ,
+                świadomą decyzję.</p>
         </div>
         <div class="skill">
             <h3>Dobranie indywidualnego sposobu rozliczenia</h3>
-            <p>W naszym salonie możesz wejść w posiadanie wymarzonego auta na różne sposoby płatności, najbardziej dopasowane pod Ciebie.</p>
+            <p>W naszym salonie możesz wejść w posiadanie wymarzonego auta na różne sposoby płatności, najbardziej
+                dopasowane pod Ciebie.</p>
         </div>
         <div class="skill">
             <h3>Służymy pomocą przed, w trakcie i po zakupie</h3>
-            <p>Gwarantujemy mozliowsć pełnego serwisu zakupionego auta oraz oferujemy pełen pakiet zniżek. W razie pytań jesteśmy zawsze pod telefonem. </p>
+            <p>Gwarantujemy mozliowsć pełnego serwisu zakupionego auta oraz oferujemy pełen pakiet zniżek. W razie pytań
+                jesteśmy zawsze pod telefonem. </p>
         </div>
     </section>
 
     <section>
-        <div class="portfolio-item"><img src="https://i.ytimg.com/vi/i3NlpZXeOxI/maxresdefault.jpg" alt="Audi a5 Sportback" width="400" height="200" ></div>
+        <div class="portfolio-item"><img src="https://i.ytimg.com/vi/i3NlpZXeOxI/maxresdefault.jpg"
+                alt="Audi a5 Sportback" width="400" height="200"></div>
 
-        <div class="portfolio-item"><img src="https://cdn.bmwblog.com/wp-content/uploads/BMW-Seria-6-Gran-Coupe-11.jpg" alt="BMW 660i" width="400" height="200"></div>
+        <div class="portfolio-item"><img src="https://cdn.bmwblog.com/wp-content/uploads/BMW-Seria-6-Gran-Coupe-11.jpg"
+                alt="BMW 660i" width="400" height="200"></div>
 
-        <div class="portfolio-item"><img src="https://ultimatecars.pl/wp-content/uploads/Mercedes-CLS-3.jpg" alt="Mercedes CLS" width="400" height="200"></div>
+        <div class="portfolio-item"><img src="https://ultimatecars.pl/wp-content/uploads/Mercedes-CLS-3.jpg"
+                alt="Mercedes CLS" width="400" height="200"></div>
     </section>
 
     <section>
-        <h1>Kontakt</h1>
+        <h2>Kontakt</h2>
 
         <h3>Jeziorna Urszula</h3>
         <address>
@@ -70,19 +78,22 @@
         </address>
 
         <form action="/action_page.php">
-            <label for="fname">Imię</label><br>
+            <label for="fname">Imię *</label><br>
             <input type="text" id="fname" name="fname" required><br>
             <label for="subject">Temat</label><br>
             <input type="text" id="subject" name="subject" required><br>
             <label for="message">Wiadomość</label><br>
-            <input type="text" id="message" name="message" required></form><br>
+            <input type="text" id="message" name="message" required>
             <input type="submit" value="Wyślij"><br>
+        </form><br>
+        
     </section>
 
-   
 
 
 
-    
+
+
 </body>
+
 </html>
